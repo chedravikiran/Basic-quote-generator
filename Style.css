@@ -1,0 +1,81 @@
+body {
+    font-size: 15pt;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+h1{
+  font-family: cursive;
+  text-align: center;
+  
+}
+#container{
+  margin-top: 150px;
+  width: 90vw;
+  min-height: 40vh;
+  background-color: whitesmoke;
+  padding: 10px;
+  border: none;
+  border-radius: 0.8rem;
+  
+}
+#listen{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 50%;
+  
+  
+  font-size: 20px;
+  border:1px solid royalblue;
+}
+#copy{
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  border:1px solid royalblue;
+  margin-left: 20px;
+  
+}
+#copy.hover{
+  background-color: royalblue;
+  cursor: pointer;
+}
+
+#generatequote{
+  height: 40px;
+  width: 120px;
+  
+  border-radius: 15px;
+  border:1px solid royalblue;
+  background: royalblue;
+  margin-top: 70px;
+  margin-bottom:20px;
+  cursor: pointer;
+  
+}
+#features{
+  display: flex;
+  justify-content: space-between;
+}
+#author{padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+#listen:hover{
+background-color: royalblue;
+}
+#copy:hover{
+background-color: royalblue;
+}
+#quote{
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.add{
+  opacity: 0.7;
+}
